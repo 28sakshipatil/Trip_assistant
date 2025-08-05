@@ -484,6 +484,13 @@ function Navbar() {
               </li>
 
 
+<li className="nav-item">
+               <Link className="nav-link" to="/packlist" onClick={closeMobileNav}>
+                 <FaWallet className="me-2 d-lg-none" />
+                    Smart Packing List
+                </Link>
+              </li>
+
               <li className="nav-item">
                 <Link
                   className="nav-link"

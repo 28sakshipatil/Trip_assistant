@@ -26,7 +26,7 @@ import TripBudgetEstimator from './components/TripBudgetEstimator';
 import "./responsive.css";
 import Currency from "./components/Currency";
 import AboutUsPage from "./components/AboutUsPage";
-
+import SmartPackingListGenerator from "./components/SmartPackingListGenerator";
 function AppContent() {
   const location = useLocation(); // Get the current route
 
@@ -64,6 +64,7 @@ function AppContent() {
           <Route path="/help" element={<HelpCentre />} />
           <Route path="/trip-budget" element={<TripBudgetEstimator />} />
           <Route path="/currency" element={<Currency />} />
+          <Route path="/packlist" element={<SmartPackingListGenerator />} />
           <Route path="/about" element={<AboutUsPage />} />
          
         </Routes>
